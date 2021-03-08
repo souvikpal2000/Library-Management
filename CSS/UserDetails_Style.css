@@ -1,0 +1,34 @@
+body{
+	/*background-color: #d4d4d4;*/
+	background: url('Images/LibraryImage.jpg');
+}
+.form{
+	width: 50%;
+    background: rgba(5, 5, 5, 0.548);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+.form button[type="goback"]
+{ 
+    background: #1c8adb; 
+    color: white; 
+    padding: 14px 20px; 
+    margin: 8px 0; 
+    border: none; 
+    font-size: 18px;
+    width: 100%; 
+} 
+.form button[type="goback"]:hover 
+{ 
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+.details{
+    font-style: italic;
+}
